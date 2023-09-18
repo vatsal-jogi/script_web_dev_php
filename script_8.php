@@ -1,4 +1,4 @@
 <?php
-$name="vatsal! ";
-echo "Hello, " . $name;
+$text = "vatsal";
+echo "text = " .  $text . "</br>" . " length = " . strlen($text);
 ?>
