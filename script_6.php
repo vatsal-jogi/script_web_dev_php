@@ -1,17 +1,11 @@
 <?php
-$x=14;
-$y=15;
-
-echo "before swap.</br>";
-echo " x = $x </br>";
-echo "y = $y </br>";
-
-$x = $x * $y;
-$y = $x / $y;
-$x = $x / $y;
-
-echo "after swap.</br>";
-echo "x = $x </br>";
-echo "y = $y </br>";
-
+$a=12;
+if($a % 2 == 0)
+{
+    echo "the number is even";
+}
+else
+{
+    echo "the number is odd";
+}
 ?>
